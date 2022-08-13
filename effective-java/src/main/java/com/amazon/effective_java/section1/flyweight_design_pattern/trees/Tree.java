@@ -9,4 +9,5 @@ public class Tree {
 
     private int x;
     private int y;
+    private TreeType treeType;
 }

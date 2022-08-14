@@ -1,4 +1,4 @@
-package com.amazon.effective_java.section1.flyweight_design_pattern.trees;
+package com.amazon.effective_java.section1.item1.flyweight_design_pattern.trees;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

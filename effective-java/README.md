@@ -18,8 +18,8 @@ A personal practice to cover Effective java  Based on [this](https://www.amazon.
 
 ## Contents to cover in detail
 ### 1. Creating and Destroying Objects <a name="create_distroy"></a>
-- [ ] Item 1: Consider static factory methods instead of constructors [page 6]
-- [ ] Item 2: Consider a builder when faced with many constructor parameters
+- [x] Item 1: Consider static factory methods instead of constructors
+- [x] Item 2: Consider a builder when faced with many constructor parameters
 - [ ] Item 3: Enforce the singleton property with a private constructor or an enum typ
 - [ ] Item 4: Enforce noninstantiability with a private constructor
 - [ ] Item 5: Prefer dependency injection to hardwiring resources

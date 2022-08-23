@@ -22,8 +22,8 @@ A personal practice to cover Effective java  Based on [this](https://www.amazon.
 - [x] Item 2: Consider a builder when faced with many constructor parameters
 - [x] Item 3: Enforce the singleton property with a private constructor or an enum typ
 - [x] Item 4: Enforce noninstantiability with a private constructor
-- [ ] Item 5: Prefer dependency injection to hardwiring resources
-- [ ] Item 6: Avoid creating unnecessary objects
+- [x] Item 5: Prefer dependency injection to hardwiring resources
+- [x] Item 6: Avoid creating unnecessary objects
 - [ ] Item 7: Eliminate obsolete object references
 - [ ] Item 8: Avoid finalizers and cleaners
 - [ ] Item 9: Prefer try-with-resources to try-finally

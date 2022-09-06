@@ -27,10 +27,12 @@ A personal practice to cover Effective java  Based on [this](https://www.amazon.
 - [x] Item 7: Eliminate obsolete object references
 - [x] Item 8: Avoid finalizers and cleaners
 - [x] Item 9: Prefer try-with-resources to try-finally
-### 2. Methods Common to All Objects <a name="hello_spring_scurity"></a>
-- [ ] Starting with the first project
-- [ ] Which are the default configurations?
-- [ ] Overriding default configurations
+### 2. Methods Common to All Objects <a name="methods_common"></a>
+- [x] Item 10: Obey the general contract when overriding equals
+- [x] Item 11: Always override hashCode when you override equals
+- [ ] Item 12: Always override toString
+- [ ] Item 13: Override clone judiciously
+- [ ] Item 14: Consider implementing Comparable
 ### 3. Managing users  <a name="managing_users"></a>
 - [ ] Implementing authentication in Spring Security
 - [ ] Describing the user

@@ -24,9 +24,9 @@ A personal practice to cover Effective java  Based on [this](https://www.amazon.
 - [x] Item 4: Enforce noninstantiability with a private constructor
 - [x] Item 5: Prefer dependency injection to hardwiring resources
 - [x] Item 6: Avoid creating unnecessary objects
-- [ ] Item 7: Eliminate obsolete object references
-- [ ] Item 8: Avoid finalizers and cleaners
-- [ ] Item 9: Prefer try-with-resources to try-finally
+- [x] Item 7: Eliminate obsolete object references
+- [x] Item 8: Avoid finalizers and cleaners
+- [x] Item 9: Prefer try-with-resources to try-finally
 ### 2. Methods Common to All Objects <a name="hello_spring_scurity"></a>
 - [ ] Starting with the first project
 - [ ] Which are the default configurations?

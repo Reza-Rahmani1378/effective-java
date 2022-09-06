@@ -2,7 +2,7 @@ package com.amazon.effective_java.studies.composite_design_pattern.shapes;
 
 import java.awt.*;
 
-public class BaseShape implements Shape{
+abstract class BaseShape implements Shape{
     public int x;
     public int y;
     public Color color;

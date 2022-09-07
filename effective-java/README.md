@@ -30,10 +30,10 @@ A personal practice to cover Effective java  Based on [this](https://www.amazon.
 ### 2. Methods Common to All Objects <a name="methods_common"></a>
 - [x] Item 10: Obey the general contract when overriding equals
 - [x] Item 11: Always override hashCode when you override equals
-- [ ] Item 12: Always override toString
-- [ ] Item 13: Override clone judiciously
-- [ ] Item 14: Consider implementing Comparable
-### 3. Managing users  <a name="managing_users"></a>
+- [x] Item 12: Always override toString
+- [x] Item 13: Override clone judiciously
+- [x] Item 14: Consider implementing Comparable
+### 3. Classes and Interfaces <a name="managing_users"></a>
 - [ ] Implementing authentication in Spring Security
 - [ ] Describing the user
 - [ ] Instructing Spring Security on how to manage users

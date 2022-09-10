@@ -33,10 +33,18 @@ A personal practice to cover Effective java  Based on [this](https://www.amazon.
 - [x] Item 12: Always override toString
 - [x] Item 13: Override clone judiciously
 - [x] Item 14: Consider implementing Comparable
-### 3. Classes and Interfaces <a name="managing_users"></a>
-- [ ] Implementing authentication in Spring Security
-- [ ] Describing the user
-- [ ] Instructing Spring Security on how to manage users
+### 3. Classes and Interfaces <a name="classes_interfaces"></a>
+- [ ] Item 15: Minimize the accessibility of classes and members
+- [ ] Item 16: In public classes, use accessor methods, not public fields
+- [ ] Item 17: Minimize mutability
+- [ ] Item 18: Favor composition over inheritance
+- [ ] Item 19: Design and document for inheritance or else prohibit it
+- [ ] Item 20: Prefer interfaces to abstract classes
+- [ ] Item 21: Design interfaces for posterity
+- [ ] Item 22: Use interfaces only to define types
+- [ ] Item 23: Prefer class hierarchies to tagged classes
+- [ ] Item 24: Favor static member classes over nonstatic
+- [ ] Item 25: Limit source files to a single top-level class
 ### 4. Dealing with passwords  <a name="dealing_with_passwords"></a>
 - [ ] Understanding the PasswordEncoder contract 
 - [ ] More about the Spring Security Crypto module 

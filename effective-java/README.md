@@ -36,8 +36,8 @@ A personal practice to cover Effective java  Based on [this](https://www.amazon.
 ### 3. Classes and Interfaces <a name="classes_interfaces"></a>
 - [x] Item 15: Minimize the accessibility of classes and members
 - [x] Item 16: In public classes, use accessor methods, not public fields
-- [ ] Item 17: Minimize mutability
-- [ ] Item 18: Favor composition over inheritance
+- [x] Item 17: Minimize mutability
+- [x] Item 18: Favor composition over inheritance
 - [ ] Item 19: Design and document for inheritance or else prohibit it
 - [ ] Item 20: Prefer interfaces to abstract classes
 - [ ] Item 21: Design interfaces for posterity

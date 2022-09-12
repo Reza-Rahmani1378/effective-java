@@ -39,7 +39,7 @@ A personal practice to cover Effective java  Based on [this](https://www.amazon.
 - [x] Item 17: Minimize mutability
 - [x] Item 18: Favor composition over inheritance
 - [x] Item 19: Design and document for inheritance or else prohibit it
-- [x] Item 20: Prefer interfaces to abstract classes
+- [ ] Item 20: Prefer interfaces to abstract classes
 - [ ] Item 21: Design interfaces for posterity
 - [ ] Item 22: Use interfaces only to define types
 - [ ] Item 23: Prefer class hierarchies to tagged classes

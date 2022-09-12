@@ -3,6 +3,10 @@ package com.amazon.effective_java.section4.item18;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
+/**
+ *
+ * @author reza-vivo
+ */
 /*
 *  Unlike method invocation, inheritance violates encapsulation.
 * We would expect the getAddCount method to return three at this point, but it returns six.

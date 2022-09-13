@@ -1,6 +1,16 @@
 package com.amazon.effective_java.studies.multi_threading;
 
+/**
+ * @author Reza Rahmani
+ * @throws InterruptedException
+ *
+ */
 public class Main {
+    /**
+     * @param args
+     * @throws InterruptedException
+     * Create Thread with Runnable interface
+     */
     public static void main(String[] args) throws InterruptedException {
         Thread myThread = new Thread(() -> {
             System.out.println("We are in thread " + Thread.currentThread().getName());

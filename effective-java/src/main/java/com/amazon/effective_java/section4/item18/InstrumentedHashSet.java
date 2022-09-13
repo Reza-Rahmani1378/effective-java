@@ -3,11 +3,14 @@ package com.amazon.effective_java.section4.item18;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
-/*
-*  Unlike method invocation, inheritance violates encapsulation.
-* We would expect the getAddCount method to return three at this point, but it returns six.
-*  What went wrong? Internally, HashSet’s addAll method is implemented on top of its add method, although HashSet, quite reasonably, does not document this implementation detail. The addAll method in InstrumentedHashSet added three to addCount and then invoked HashSet’s addAll implementation using super.addAll. This in turn invoked the add method, as overridden in InstrumentedHashSet, once for each element. Each of these three invocations added one more to addCount, for a total increase of six: each element added with the addAll method is double-counted.
-* */
+/**
+ * Unlike method invocation, inheritance violates encapsulation.
+ * We would expect the getAddCount method to return three at this point, but it returns six.
+ * What went wrong? Internally, HashSet’s addAll method is implemented on top of its add method, although HashSet, quite reasonably, does not document this implementation detail. The addAll method in InstrumentedHashSet added three to addCount and then invoked HashSet’s addAll implementation using super.addAll. This in turn invoked the add method, as overridden in InstrumentedHashSet, once for each element. Each of these three invocations added one more to addCount, for a total increase of six: each element added with the addAll method is double-counted.
+ * @author Reza Rahmani
+ * @version 1.0.0
+ */
+
 public class InstrumentedHashSet <E> extends HashSet<E> {
     private int addCount;
     public InstrumentedHashSet() {

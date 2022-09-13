@@ -38,7 +38,7 @@ A personal practice to cover Effective java  Based on [this](https://www.amazon.
 - [x] Item 16: In public classes, use accessor methods, not public fields
 - [x] Item 17: Minimize mutability
 - [x] Item 18: Favor composition over inheritance
-- [ ] Item 19: Design and document for inheritance or else prohibit it
+- [x] Item 19: Design and document for inheritance or else prohibit it
 - [ ] Item 20: Prefer interfaces to abstract classes
 - [ ] Item 21: Design interfaces for posterity
 - [ ] Item 22: Use interfaces only to define types

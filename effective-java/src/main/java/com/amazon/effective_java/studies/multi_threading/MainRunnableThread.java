@@ -5,7 +5,7 @@ package com.amazon.effective_java.studies.multi_threading;
  * @throws InterruptedException
  *
  */
-public class Main {
+public class MainRunnableThread {
     /**
      * @param args
      * @throws InterruptedException

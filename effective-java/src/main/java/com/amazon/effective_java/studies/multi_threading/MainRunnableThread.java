@@ -1,12 +1,9 @@
 package com.amazon.effective_java.studies.multi_threading;
 
-/**
- * @author Reza Rahmani
- * @throws InterruptedException
- *
- */
+
 public class MainRunnableThread {
     /**
+     * @author Reza Rahmani
      * @param args
      * @throws InterruptedException
      * Create Thread with Runnable interface

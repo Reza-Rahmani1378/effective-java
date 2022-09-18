@@ -9,25 +9,38 @@ public class JoiningThread {
 
     /**
      * Calculating Factorial with Joining Thread.
-     * @param args
      */
-    public static void main(String[] args) {
-        List<Long> inputNumbers = Arrays.asList(0L , 23L, 34L, 23442L , 234L);
+    public static void main(String[] args) throws InterruptedException {
+        List<Long> inputNumbers = Arrays.asList(100000000L , 23L, 34L, 23442L , 234L);
         List<FactorialThread> threads = new ArrayList<>();
         for (Long inputNumber : inputNumbers) {
             threads.add(new FactorialThread(inputNumber));
         }
 
-        for (FactorialThread thread : threads) {
+        for (Thread thread : threads) {
+            thread.setDaemon(true);
             thread.start();
         }
 
+        for (Thread thread : threads) {
+            thread.join(2000);
+        }
 
+
+
+        for (int i = 0; i < inputNumbers.size(); i++) {
+            FactorialThread factorialThread = threads.get(i);
+            if (factorialThread.isFinish()) {
+                System.out.println("Factorial of " + inputNumbers.get(i) + " is " +  factorialThread.getResult());
+            } else {
+                System.out.println("The calculation for " + inputNumbers.get(i) + " is still in progress");
+            }
+        }
     }
 
 
     private static class FactorialThread extends Thread {
-        private long inputNumber;
+        private final long inputNumber;
         private BigInteger result = BigInteger.ZERO;
         private boolean isFinish;
         public FactorialThread(long inputNumber) {
